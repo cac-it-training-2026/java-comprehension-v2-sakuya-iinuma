@@ -9,6 +9,7 @@ abstract class AbstMember {
 
 	/**
 	 * name protected access
+	 * 
 	 */
 	protected String name;
 
@@ -25,16 +26,11 @@ abstract class AbstMember {
 	 */
 	public abstract void showMember();
 
-	/**
-	 * @return name
-	 */
+	// getter/setter
 	public String getName() {
 		return name;
 	}
 
-	/**
-	 * @param name セットする name
-	 */
 	public void setName(String name) {
 		this.name = name;
 	}
