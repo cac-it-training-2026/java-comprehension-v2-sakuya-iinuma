@@ -96,9 +96,9 @@ class Member {
 	public void showMember() {
 		System.out.println("***MEMBER DATA***");
 		System.out.println("id:" + id);
-		System.out.println("password" + password);
+		System.out.println("password:" + password);
 		System.out.println("name:" + name);
-		System.out.println("age" + age);
+		System.out.println("age:" + age);
 		System.out.println("rank" + rank);
 		System.out.println("***************");
 	}
